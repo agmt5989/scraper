@@ -7,3 +7,6 @@ axios.get(url)
     .then(response => {
         console.log(response.data);
     })
+    .catch(error => {
+        
+    })
