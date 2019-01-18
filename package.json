@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/agmt5989/scraper/issues"
   },
-  "homepage": "https://github.com/agmt5989/scraper#readme"
+  "homepage": "https://github.com/agmt5989/scraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.2"
+  }
 }
