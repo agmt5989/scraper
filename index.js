@@ -19,5 +19,8 @@ let getData = html => {
             title: $(elem).text(),
             link: $(elem).find('a.storylink').attr('href'),
         });
-    })
-}
+    });
+    console.log(data);
+};
+
+getData(response.data);
